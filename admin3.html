@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROF PAGE</title>
+    <link rel="stylesheet" href="admin3.css">
+</head> 
+<body>
+    <!-- Background image container -->
+    <div class="background-image"></div>
+
+    <!-- Search bar container -->
+    <div class="search-container">
+        <span class="search-icon" onclick="searchFunction()">🔍</span> <!-- Search Icon -->
+        <input type="text" class="search-input" placeholder="Search the name..." id="search-input">
+        <span class="clear-button" onclick="clearInput()">✖</span> <!-- Clear Button -->
+    </div>
+
+    <!-- Row for Student Name and Course fields -->
+    <div class="fields-row">
+        <div class="name-box left">Student Name</div>
+        <div class="Muscular-Petite-Cat">Muscular Petite Cat</div>
+        <div class="name-box right">Course</div>
+        <div class="BS-Computer-Engineering">BS Computer Engineering</div>
+        <div class="Petite-Chubby-Mouse">Petite Chubby Mouse</div>
+        <div class="Additional-BS-Computer-Engineering">BS Computer Engineering</div>
+        <div class="Studentname">Lorence Ogama</div>
+        <div class="BS-Cpe">BS Computer Engineering</div>
+        <div class="Studentname1">Lawrence Semillano</div>
+        <div class="BS-Cpe1">BS Computer Engineering</div>
+        <div class="Studentname2">Mark Dave Hermosa</div>
+        <div class="BS-Cpe2">BS Computer Engineering</div>
+    </div>
+    <!--Buttons that connected to the Grading System-->
+    <div class="Editbtn1">
+        <a href="student1.html">
+        <button class="Edit">Edit</button>
+        </a>
+    </div>
+    <div class="Editbtn2">
+        <a href="student2.html">
+        <button class="Edit1">Edit</button>
+        </a>
+    </div>
+    <div class="Editbtn3">
+        <a href="student3.html">
+        <button class="Edit2">Edit</button>
+        </a>
+    </div>
+    <div class="Editbtn4">
+        <a href="student4.html">
+        <button class="Edit3">Edit</button>
+        </a>
+    </div>
+    <div class="Editbtn5">
+        <a href="student5.html">
+        <button class="Edit4">Edit</button>
+        </a>
+    </div>
+    <!--Search Bar Function JS-->
+    <script>
+        function clearInput() {
+            document.getElementById('search-input').value = '';
+        }
+
+        function searchFunction() {
+            const query = document.getElementById('search-input').value;
+            if (query) {
+                alert(`Searching for: ${query}`);
+            } else {
+                alert("Please enter a search term.");
+            }
+        }
+    </script>
+</body>

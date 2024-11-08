@@ -1,0 +1,626 @@
+body {
+    background: url(../background/4_20241028_230629_0003.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 99%;
+    background-color: maroon;
+}
+.outline {
+    height: 15%;
+    width: 75%;
+    border-radius: 40px;
+    background: transparent;
+    position: absolute;
+    top: 7%;
+    left: 8%;
+}
+
+.quiz1 {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.quiz1-1 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 8%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz1-2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 8%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz1-3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz2 {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 16%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz2-1 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 16%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz2-2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 16%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz2-3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 16%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz3 {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 24%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz3-1 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 24%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz3-2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 24%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz3-3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz4 {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 32%; 
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz4-1 {
+    background-color:rgb(240, 235, 224)  ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 32%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz4-2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 32%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz4-3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prelim {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 40%; 
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prelim1 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prelim2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prelim3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.midterm {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 48%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.midterm1 {
+    background-color :rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 48%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.midterm2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 48%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.midterm3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.semifinal {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 56%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.semifinal1 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 56%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.semifinal2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 56%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.semifinal3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 56%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finals {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 64%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finals1 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 64%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finals2 {
+    background-color:rgb(240, 235, 224)  ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 64%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finals3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 64%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finalgrade {
+    background-color:rgb(224, 192, 109) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 28%;
+    left: 76%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finalgrade1 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 42%;
+    left: 76%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finalgrade2 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 76%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finalgrade3 {
+    background-color:rgb(240, 235, 224) ;
+    height: 13%;
+    width: 7%;
+    position: absolute;
+    top: 70%;
+    left: 76%;
+    text-align: center;
+    line-height: 67px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 8%;
+}
+.Year {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 8%;
+}
+.Course {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+}
+.Semester {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+}
+.quiz1-1 .remove1-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz1-2 .remove1-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz1-3 .remove1-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz2-1 .remove2-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz2-2 .remove2-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz2-3 .remove2-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz3-1 .remove3-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz3-2 .remove3-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz3-3 .remove3-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz4-1 .remove4-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz4-2 .remove4-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.quiz4-3 .remove4-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.prelim1 .remove5-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.prelim2 .remove5-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.prelim3 .remove5-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.midterm1 .remove6-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.midterm2 .remove6-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.midterm3 .remove6-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.semifinal1 .remove7-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.semifinal2 .remove7-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.semifinal3 .remove7-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.finals1 .remove8-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.finals2 .remove8-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.finals3 .remove8-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.finalgrade1 .remove9-1 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.finalgrade2 .remove9-2 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.finalgrade3 .remove9-3 {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    background-color:rgb(224, 192, 109);
+}
+.grade-input {
+    width: 50px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgb(240, 235, 224);
+    border: none;
+    outline: none;
+    position: absolute;
+    top:40px;
+    right: 30px;
+}
+
+.add-grade {
+    background-color: rgb(224, 192, 109);
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;   
+    right: 10px;
+}

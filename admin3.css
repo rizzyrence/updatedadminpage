@@ -1,0 +1,283 @@
+body {
+background: url(../background/4_20241028_230629_0003.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: 99%;
+background-color: maroon;
+}
+/* Search bar container */
+.search-container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border: 2px solid black; /* Black outline */
+    border-radius: 20px;
+    background-color: rgb(209, 174, 86);
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Fields row for positioning elements at the corners */
+.fields-row {
+    position: relative;
+    width: 70%;
+}
+
+/* Left box styling for Student Name */
+.name-box.left {
+    position: absolute;
+    left: 90px;
+    top: 20px;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(209, 174, 86); /* Same background as the search bar */
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Right box styling for Course */
+.name-box.right {
+    position: absolute;
+    right: 90px;
+    top: 20px;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Empty box below Student Name */
+.Muscular-Petite-Cat {
+    position: absolute;
+    left:19px;
+    top: 120px; /* Position below the Student Name box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Empty box below Course */
+.BS-Computer-Engineering {
+    position: absolute;
+    right: 0;
+    top: 120px; /* Position below the Course box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Additional Left Box: Petite Chubby Mouse */
+.Petite-Chubby-Mouse {
+    position: absolute;
+    left: 19px;
+    top: 190px; /* Position below the Muscular Petite Cat box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Additional Right Box: BS Computer Engineering */
+.Additional-BS-Computer-Engineering {
+    position: absolute;
+    right: 0;
+    top: 190px; /* Position below the original BS Computer Engineering box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Search icon */
+.search-icon {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+/* Search input field */
+.search-input {
+    background-color: rgb(209, 174, 86);
+    border: none;
+    color: #333;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Clear button ("X") */
+.clear-button {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.Editbtn1 .Edit {
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    right: 23%;
+    top: 34%;
+    background-color: rgb(209, 174, 86);
+    border-radius: 30px;
+}
+.Editbtn2 .Edit1 {
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    right: 23%;
+    top: 45%;
+    background-color: rgb(209, 174, 86);
+    border-radius: 30px;
+}
+.Studentname {
+    position: absolute;
+    left:19px;
+    top: 260px; /* Position below the Student Name box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+    height: 17px;
+}
+.BS-Cpe {
+    position: absolute;
+    right: 0;
+    top: 260px; /* Position below the original BS Computer Engineering box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+}
+.Studentname1 {
+    position: absolute;
+    left:19px;
+    top: 340px; /* Position below the Student Name box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+    height: 17px;
+}
+.BS-Cpe1 {
+    position: absolute;
+    right: 0;
+    top: 340px; /* Position below the original BS Computer Engineering box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+}
+.Studentname2 {
+    position: absolute;
+    left:19px;
+    top: 410px; /* Position below the Student Name box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+    height: 17px;
+}
+.BS-Cpe2 {
+    position: absolute;
+    right: 0;
+    top: 410px; /* Position below the original BS Computer Engineering box */
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 174, 86);
+    color: #333;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 450px;
+}
+.Editbtn3 .Edit2 {
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    right: 23%;
+    top: 345px;
+    background-color: rgb(209, 174, 86);
+    border-radius: 30px;
+}
+.Editbtn4 .Edit3 {
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    right: 23%;
+    top:420px;
+    background-color: rgb(209, 174, 86);
+    border-radius: 30px;
+}
+.Editbtn5 .Edit4 {
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    right: 23%;
+    top:495px;
+    background-color: rgb(209, 174, 86);
+    border-radius: 30px;
+}
